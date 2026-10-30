@@ -1,0 +1,14 @@
+{
+  "reset": false,
+  "rgb_topic": "/camera/rgb/image_raw",
+  "depth_unit": "uint16_mm_from_float_m",
+  "depth_dtype": "float32",
+  "timestamp": 1785918322.849127,
+  "depth_topic": "/camera/depth/image",
+  "step_id": 19,
+  "instruction": "Move toward the yellow box. Turn left when you are close to the yellow box. Stop in front of the green trash can.",
+  "depth_shape": [
+    400,
+    640
+  ]
+}

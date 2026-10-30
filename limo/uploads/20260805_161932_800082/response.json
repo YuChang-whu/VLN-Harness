@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "action": [
+    2
+  ],
+  "action_names": [
+    "TURN_LEFT_15_DEG"
+  ],
+  "action_sequence": [
+    2,
+    1,
+    2,
+    1
+  ],
+  "action_sequence_names": [
+    "TURN_LEFT_15_DEG",
+    "MOVE_FORWARD_0.25M",
+    "TURN_LEFT_15_DEG",
+    "MOVE_FORWARD_0.25M"
+  ],
+  "instruction": "Move toward the yellow box. Turn left when you are close to the yellow box. Stop in front of the green trash can.",
+  "reset": false,
+  "terminate": false,
+  "generate_time": 0.23380351066589355,
+  "elapsed_ms": 363.31,
+  "received": {
+    "image": {
+      "filename": "rgb.jpg",
+      "bytes": 26495,
+      "shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    "depth": {
+      "present": true,
+      "filename": "depth.png",
+      "bytes": 56951,
+      "shape": [
+        480,
+        640,
+        1
+      ]
+    }
+  }
+}

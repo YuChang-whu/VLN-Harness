@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "action": [
+    0
+  ],
+  "action_names": [
+    "STOP"
+  ],
+  "action_sequence": [
+    0
+  ],
+  "action_sequence_names": [
+    "STOP"
+  ],
+  "instruction": "Move toward first. When you are very close to the plants turn left. Stop at the door.",
+  "reset": false,
+  "terminate": true,
+  "generate_time": 0.0,
+  "elapsed_ms": 387.85,
+  "received": {
+    "image": {
+      "filename": "rgb.jpg",
+      "bytes": 32913,
+      "shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    "depth": {
+      "present": true,
+      "filename": "depth.png",
+      "bytes": 71201,
+      "shape": [
+        480,
+        640,
+        1
+      ]
+    }
+  }
+}

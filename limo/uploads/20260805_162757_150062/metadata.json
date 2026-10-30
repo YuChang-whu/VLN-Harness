@@ -1,0 +1,14 @@
+{
+  "reset": false,
+  "rgb_topic": "/camera/rgb/image_raw",
+  "depth_unit": "uint16_mm_from_float_m",
+  "depth_dtype": "float32",
+  "timestamp": 1785918476.51044,
+  "depth_topic": "/camera/depth/image",
+  "step_id": 43,
+  "instruction": "Move toward first. When you are very close to the plants turn left. Stop at the door.",
+  "depth_shape": [
+    400,
+    640
+  ]
+}
